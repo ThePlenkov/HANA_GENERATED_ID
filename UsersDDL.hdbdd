@@ -1,0 +1,11 @@
+namespace "system-local"."pplenkov"."GENERATED_ID";
+
+@Schema: 'PPLENKOV'
+context UsersDDL {
+
+    view UserList as select from CV_USERS {
+    	  
+    	USER_NAME as Username
+    };
+
+};

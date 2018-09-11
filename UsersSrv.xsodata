@@ -1,0 +1,10 @@
+service  { 
+	"system-local.pplenkov.GENERATED_ID::Users"  as 
+	"Users" key generate local "GENERATED_ID";
+	 
+	"system-local.pplenkov.GENERATED_ID::UsersDDL.UserList" as "UserList" key generate local "GENERATED_ID" ;
+}  
+
+annotations {
+enable OData4SAP;
+}
